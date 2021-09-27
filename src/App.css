@@ -1,0 +1,153 @@
+.main-echo{
+  background-color: #e9ebf2;
+}
+.echo-logo img {
+  height: 50px;
+}
+.echo-left{
+  padding: 55px;
+  background-color: #fff;
+}
+.left-main{
+  padding-top: 50px;
+}
+.left-main h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0c1d48;
+}
+.left-main p {
+  color: #424857;
+  font-size: 16px;
+  margin: 0px;
+}
+.echo-btn{
+  border: 1px solid #0c45d1;
+    color: #0c45d1;
+    display: flex;
+    padding: 10px 20px;
+}
+.echo-btn span {
+  margin-right: 100px;
+}
+
+.divison{
+  text-align: center;
+    position: relative;
+    margin: 16px 0;
+    height: 0;
+    border-top: 1px solid #0c45d1 ;
+   
+    margin-top: 25px;
+}
+.divison span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #212529;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+ position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%,50%);
+  height: 30px;
+  width: 30px;
+ text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 4px;
+}
+.form-details span {
+  color: #0c45d1;
+  font-size: 16px;
+  font-weight: 500;
+}
+.left-bottom p {
+  font-size: 12px;
+  padding: 30px 0px;
+}
+p.last {
+  font-size: 12px;
+}
+.echo-btn:hover{
+  background-color: #0c45d1;
+    color: #fff;
+    border: 1px solid #0c45d1 ;
+}
+.main-p{
+  padding-bottom: 30px;
+}
+.main-echo {
+  background-color: #e9ebf2;
+  padding: 0px 50px;
+  max-width: 128rem;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+.echo-right{
+  padding: 30px 10px 70px;
+}
+
+.echo-right-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #0c45d1;
+  float: right;
+  align-items: center;
+}
+.echo-wel-data h1{
+  font-size: 30px;
+  font-weight: 700;
+}
+.echo-wel-data p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #0c1d48;
+}
+
+@media only screen and (min-width:992px){
+  .row.main__echoo--r .col-lg-5, .row.main__echoo--r .col-lg-7{
+    padding: 0px 15px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .echo-btn span {
+    margin-right: 16%;
+}
+}
+@media only screen and (max-width: 936px) {
+  .echo-btn span {
+    margin-right: 8%;
+}
+.main__echoo--r{
+  flex-direction: column-reverse;
+}
+.echo-right {
+padding: 30px 10px 30px;
+background: #0c1d48;
+}
+.echo-left {
+padding: 20px;}
+.left-main {
+padding-top: 0px;
+}
+.left-main h1 {
+font-size: 28px;
+}
+.echo-wel-data h1 br,.echo-wel-data p br,.echo-welcome {
+display: none;
+}
+
+.echo-wel-data p{margin: 0px;color: #fff;}
+.echo-wel-data h1{color: #fff;
+font-size: 24px;
+line-height: 33px;}
+.main-echo{
+padding: 15px;
+}
+}
+
